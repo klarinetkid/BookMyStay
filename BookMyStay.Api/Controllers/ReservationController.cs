@@ -11,7 +11,7 @@ namespace BookMyStay.Api.Controllers
         // GET /reservation
         [HttpGet]
         [ActionName("Index")]
-        public IActionResult Get(ReservationViewModel model)
+        public IActionResult Get(ReservationViewModel? model)
         {
             if (model == null) return NotFound();
 
@@ -59,7 +59,7 @@ namespace BookMyStay.Api.Controllers
         // PUT /reservation
         [HttpPut]
         [ActionName("Index")]
-        public IActionResult Update(ReservationViewModel model)
+        public IActionResult Update(ReservationViewModel? model)
         {
             if (model == null) return BadRequest();
 
@@ -87,7 +87,7 @@ namespace BookMyStay.Api.Controllers
         // DELETE /reservation
         [HttpDelete]
         [ActionName("Index")]
-        public IActionResult Delete(ReservationViewModel model)
+        public IActionResult Delete(ReservationViewModel? model)
         {
             if (model == null) return BadRequest();
 
