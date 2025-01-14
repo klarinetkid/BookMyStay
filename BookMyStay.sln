@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyStay.Api", "BookMyStay.Api\BookMyStay.Api.csproj", "{51473E00-D435-458B-90D6-AA83CC761CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyStay.DataServices", "BookMyStay.DataServices\BookMyStay.DataServices.csproj", "{C9D0A0A2-DB4B-4987-8047-8F35588FCD27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51473E00-D435-458B-90D6-AA83CC761CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51473E00-D435-458B-90D6-AA83CC761CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51473E00-D435-458B-90D6-AA83CC761CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51473E00-D435-458B-90D6-AA83CC761CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D0A0A2-DB4B-4987-8047-8F35588FCD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D0A0A2-DB4B-4987-8047-8F35588FCD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D0A0A2-DB4B-4987-8047-8F35588FCD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D0A0A2-DB4B-4987-8047-8F35588FCD27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4E47BC4-5AF3-4F66-805F-FC88E5C562E3}
+	EndGlobalSection
+EndGlobal
